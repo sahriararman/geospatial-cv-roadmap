@@ -1,0 +1,49 @@
+# ── Core Geospatial ───────────────────────────────────────────────────────────
+rasterio>=1.3
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.5
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+scikit-image>=0.21
+
+# ── Machine Learning ──────────────────────────────────────────────────────────
+scikit-learn>=1.3
+
+# ── Deep Learning (install torch separately with CUDA) ────────────────────────
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+torchgeo>=0.5
+segmentation-models-pytorch>=0.3
+albumentations>=1.3
+torchmetrics>=1.2
+timm>=0.9
+
+# ── Agriculture ───────────────────────────────────────────────────────────────
+cropharvest>=0.4
+ultralytics>=8.0
+grad-cam>=1.4
+phenopy>=0.3
+tslearn>=0.6
+
+# ── LiDAR / 3D ────────────────────────────────────────────────────────────────
+laspy>=2.0
+open3d>=0.17
+h5py>=3.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+contextily>=1.3
+leafmap
+folium
+plotly
+
+# ── Notebook ──────────────────────────────────────────────────────────────────
+jupyter
+ipykernel
+ipywidgets
+tqdm
+
+# ── Foundation Models ─────────────────────────────────────────────────────────
+transformers>=4.35
+einops>=0.7

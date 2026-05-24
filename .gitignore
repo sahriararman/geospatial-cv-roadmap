@@ -1,0 +1,61 @@
+# ── Large data files (never push raw satellite data) ──────────────────────────
+data/raw/
+data/patches/
+data/stats/
+*.tif
+*.tiff
+*.las
+*.laz
+*.h5
+*.hdf5
+*.nc
+
+# ── Model checkpoints (too large for GitHub) ───────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.pkl
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+env/
+venv/
+.venv/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── VS Code ───────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/*.code-workspace
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Credentials ───────────────────────────────────────────────────────────────
+.env
+*.key
+secrets.json
+
+# ── Outputs (keep figures, ignore heavy outputs) ──────────────────────────────
+outputs/predictions/
+outputs/exports/
+
+# ── numpy arrays (patch datasets) ─────────────────────────────────────────────
+*.npy
+*.npz
+
+# ── KEEP THESE (small enough for GitHub) ──────────────────────────────────────
+# data/sample/      ← small test data is fine
+# outputs/figures/  ← saved plots are fine
+# stats/*.json      ← normalization stats JSON are fine

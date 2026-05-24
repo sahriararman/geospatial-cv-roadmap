@@ -1,0 +1,43 @@
+name: gis_ml
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pandas
+  - jupyter
+  - ipykernel
+  - gdal
+  - conda-forge::rasterio
+  - geopandas
+  - shapely
+  - pyproj
+
+  - pip:
+    - torch torchvision --index-url https://download.pytorch.org/whl/cu118
+    - torchgeo
+    - segmentation-models-pytorch
+    - albumentations
+    - torchmetrics
+    - timm
+    - ultralytics
+    - cropharvest
+    - h5py
+    - laspy
+    - open3d
+    - contextily
+    - leafmap
+    - geemap
+    - phenopy
+    - tslearn
+    - transformers
+    - einops
+    - grad-cam
+    - opencv-python
+    - roboflow
