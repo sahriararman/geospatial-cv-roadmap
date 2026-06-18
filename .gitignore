@@ -59,3 +59,11 @@ outputs/exports/
 # data/sample/      ← small test data is fine
 # outputs/figures/  ← saved plots are fine
 # stats/*.json      ← normalization stats JSON are fine
+data/raw/ 
+data/patches/ 
+data/stats/ 
+outputs/ 
+*.TIF 
+*.tif 
+*.img 
+*.jp2 
